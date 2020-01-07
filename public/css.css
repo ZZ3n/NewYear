@@ -1,0 +1,48 @@
+
+#header {
+    position : relative;
+    text-align: center;
+    
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#header a {
+    padding: 0px 20px;
+    font-size: large;
+    font-weight: 300;
+    text-decoration: none;
+    color : black;
+}
+
+#header :hover {
+    color : black;
+}
+
+#wrapper {
+    text-align: center;
+}
+#wrapper::after {
+    clear : both;
+}
+
+#section2 {
+    display: block;
+    width : 80%;
+    margin : 0px 8vw
+}
+#section2:after {
+    clear : both;
+}
+
+#left {
+    float : left;
+    width : 69%;
+}
+
+#right {
+    float : right ;
+    width : 29%;
+}
