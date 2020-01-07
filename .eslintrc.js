@@ -4,7 +4,7 @@ module.exports = {
 		"commonjs": true,
 		"es6": true,
 		"node": true,
-		"jqury" : true
+		"jquery" : true
 	},
 	"extends": "eslint:recommended",
 	"globals": {
@@ -16,7 +16,7 @@ module.exports = {
 	},
 	"rules": {
 		"indent": [
-			"error",
+			"warn",
 			"tab"
 		],
 		"linebreak-style": [
