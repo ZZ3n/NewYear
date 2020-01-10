@@ -28,20 +28,44 @@
             <img src="img/cover2.jpg" alt="" srcset="">
         </div>
         <div id="section2">
-            <div class="items" id="youtube"><iframe width="100%" src="https://www.youtube.com/embed/Q2XKSgihUqg"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            <div class="items" id="youtube"><iframe width="100%" height="500px"
+                    src="https://www.youtube.com/embed/Q2XKSgihUqg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe></div>
-            <div class="items">Instagram</div>
-            <div class="items">News & Event</div>
-            <div class="items">Facebook</div>
+            <div class="items" id="NnE">
+                <p>News & Event</p>
+                <div><img src="img/News1.jpg" class="NnE-img">
+                    <a class="description">2019 한·아세안 특별정상회의 추위 녹인 '다운'은 앤듀</a>
+                    <img src="img/Event.jpg" class="NnE-img">
+                    <a class="description">앤듀 크리스마스 럭키드러우 이벤트</a>
+                </div>
+            </div>
+            <div class="items">Instagram<br><a href="https://wordpress.org/plugins/instagram-feed/">인스타그램은 나중에 하는걸로!</a>
+            </div>
+
+            <div class="items">
+                <p>Facebook</p>
+                <div class="fb-page" data-href="https://www.facebook.com/andew.official/" data-tabs="timeline"
+                    data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                    data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/andew.official/" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/andew.official/">ANDEW</a></blockquote>
+                </div>
+            </div>
+
         </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v5.0">
+    </script>
     <script src="./js.js"></script>
 </body>
 
