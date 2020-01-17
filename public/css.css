@@ -92,7 +92,7 @@ body {
     width : 100%;
 }
 #section1 {
-    display: table;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -134,10 +134,17 @@ body {
     padding-top : 2px;
 }
 
+#prev {
+    margin-left: 15px;
+    background: beige;
+}
 
+#next {
+    margin-right: 15px;
+    background: beige;
+}
 
-
-@media (max-width : 980px) { /* for PC (small-size)*/
+@media screen and (max-width : 980px) { /* for PC (small-size)*/
     #NavigationBar{
         display: none;
     }
@@ -151,7 +158,7 @@ body {
     }
 }
 
-@media (max-width : 768px) , (orientation : portrait) { /*for Phone 768*/ 
+@media screen and (max-width : 768px) { /*for Phone 768*/ 
     #section1 img {
         width: 100%;
     }
